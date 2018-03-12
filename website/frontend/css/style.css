@@ -199,6 +199,17 @@ header p
     letter-spacing: 2px;
 }
 
+
+
+header p
+{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
 .intro-text
 {
     position: relative;
@@ -259,6 +270,8 @@ header p
     margin-bottom: 30px;
     padding-left: 20px;
 }
+
+
 
 /* Team Section */
 
@@ -366,7 +379,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     color: #555;
 }
 
-/* Gallery Section 
+/* Video Section */
+
+#video-section
+{
+    padding: 100px 0;
+}
+
+/* Document Section */
+
+#document-section
+{
+    padding: 100px 0;
+}
+
+
+
+/* Gallery Section
 ==============================*/
 
 #works-section
@@ -914,7 +943,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 center{
     text-align: center;
 }
-.videowrapper { 
+.videowrapper {
         float: none;
         clear: both;
         width: 700px;
@@ -937,4 +966,3 @@ center{
 null
 {
 }
-
