@@ -22,6 +22,13 @@
         <link rel="stylesheet" type="text/css" href="./css/animate.min.css">
         <link href="./css/css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="./js/modernizr.custom.js"></script>
+        <!-- <link rel="shortcut icon" href="./neot/TemplateData/favicon.ico">
+        <link rel="stylesheet" href="./neot/TemplateData/style.css">
+        <script src="./neot/TemplateData/UnityProgress.js"></script>  
+        <script src="./neot/Build/UnityLoader.js"></script>
+        <script>
+          var gameInstance = UnityLoader.instantiate("gameContainer", "./neot/Build/Output.json", {onProgress: UnityProgress});
+        </script> -->
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -68,7 +75,7 @@
                             <a href="#showcase-section" class="page-scroll">Showcase</a>
                         </li>
                         <li>
-                            <a href="./index.html" class="page-scroll">NORCHAIN</a>
+                            <a href="#team-section" class="page-scroll">Team</a>
                         </li>
                     </ul>
                 </div>
@@ -80,7 +87,7 @@
         <header class="text-center" name="home">
             <div class="intro-text" style="background-image: url('neot/img/header-bg.jpg')">
                 <h1 class="wow fadeInDown animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 600ms; animation-name: fadeInDown;"> <img src="./neot/img/NEOT_Light.png"></h1>
-                <h3 class="wow zoomIn animated" data-wow-delay="1500ms" style="visibility: visible; animation-name: zoomIn;color: #85a6c8;">the 1st practical IoT distributed ledger project</h3>
+                <h1 class="wow zoomIn animated" data-wow-delay="1500ms" style="visibility: visible; animation-name: zoomIn;color: #85a6c8;">NEOT</h1>
                 <p class="wow fadeInDown animated" data-wow-delay="100ms" style="visibility: visible; animation-delay: 600ms; animation-name: fadeInDown;"></p>
                 <p>&nbsp;</p>
                 <div class="clearfix"></div>
@@ -92,9 +99,22 @@
             <div class="container">
                 <div class="row">
                     <div class="section-title text-center center wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;">
-                        <h2><span class="color">We</span></h2>
-                        <h3>The best blockchain team in Canada<br></h3>
+                        <h2><span class="color">NEO of Things</span></h2>
+                        <h3>&nbsp;a practical distributed ledger Project<br></h3>
                         <hr>
+                    </div>
+                    <div class="row wow fadeInDown" data-wow-delay="200ms" style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+                        <div class="col-md-6">
+                            <img src="./neot/img/neotis.jpg" class="img-responsive center-block">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-text">
+                                <h3><font color="#1a7ea1">NEOT = (NEO + PROV) * IoT </font></h3>
+                                <a></a>
+                                <p>Comparing with other IoT distributed ledger projects' foundations, NEO has the advantages as a DAPP platform with high transaction speed and reasonable incentive mode. The support of light nodes and dBFT consensus are also suitable for the capacity limited IoT devices. Moreover, NEO's binary numeral system is compatible with most manufacturers' devices, avoiding unnecessary computational overhead.<br>
+            Those are the reasons why NEO is the perfect block infrastructure for NEOT. PROV's service model with NEO's blockchain could form the best practical IoT solution.<br></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="row wow fadeInDown" data-wow-delay="200ms" style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
                         <div class="col-md-6">
@@ -105,34 +125,25 @@
                                 <h3><font color="#1a7ea1">PROV Service &amp; PROV DEVELOPER</font></h3>
                                 <a></a>
                                 <p>PROV stands for <font color="#1a7ea1">Provision, Representation, Orientation and Verification</font> - Four essential phases abstracted from any service instances in IoT sharing economy.<br> 
-            Conventional IoT service model has three key roles: manufacturer, provider and consumer. Leverage the power of blockchain, we introduce a new independent role <font color="#1a7ea1">PROV Developer</font>, who helps bridging provider and consumer with highly flexible and customizable services, and earns royalty when any instance of those services finalized.<br>
-            NEOT project aims to build a PROV compatiable blockchain platform. PROV developers can retrieve the public information (service success rate, times and quality of service, payment history, etc.) from the blockchain to optimize their services, and use NEOT token to realise instant payment.<br>
+            Conventional IoT service model has three key roles: manufacturer, provider and consumer. Leverage the power of blockchain, we introduce a new independent role <font color="#1a7ea1">PROV Developer</font>, who helps bridging provider and consumer with highly flexible and customizable services, and earns royalty or penalty when any instance of those services finalized.<br>
+            NEOT project aims to build a PROV compatiable blockchain platform. PROV developers can retrieve the public information (service success rate, times and quality of service, payment history, etc.) from the blockchain to optimize their implementation of services, and use NEOT token to realise instant payment.<br>
             NEOT keeps large data transfers off-chain, and utilizes distributed ledger's great features of irreversibility, privacy-preservation and security. Differ from many other IoT distributed ledger projects, NEOT also targets to provide tools for PROV developers to implement "Proof-of-Service" in PROV's Verification phase, automate the service verification and reviewing process in many common user cases, without human authority's influence.<br>
-            For more information about how does PROV service works, please read norchain's <a href="https://github.com/NEOCompToronto/NEOCompetition/blob/master/PROV%20Service%20and%20Share%20Economy.ipynb" target="_blank">Yellow Paper</a>.</p>
+                For more information about how does PROV service works, please read norchain's <a href="https://github.com/NEOCompToronto/NEOCompetition/blob/master/PROV%20Service%20and%20Share%20Economy.ipynb" target="_blank"><u>Yellow Paper</u></a>.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row wow fadeInDown" data-wow-delay="200ms" style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
+                        <div class="col-md-6">
+                            <img src="neot/img/SmartTransportation_Preview.jpg" class="img-responsive center-block portfolio-link" href="index.html#portfolioModal1" data-toggle="modal">
+                        </div>
                         <div class="col-md-6">
                             <div class="about-text">
                                 <h3><font color="#1a7ea1">USER CASE: SMart Traffic</font></h3>
                                 <a></a>
-                                <p>Norchain has ongoing cooperation </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <img src="neot/img/SmartTraffic.jpg" class="img-responsive center-block">
-                        </div>
-                    </div>
-                    <div class="row wow fadeInDown" data-wow-delay="200ms" style="visibility: hidden; animation-delay: 200ms; animation-name: none;">
-                        <div class="col-md-6">
-                            <img src="./img/about.jpg" class="img-responsive center-block">
-                        </div>
-                        <div class="col-md-6">
-                            <div class="about-text">
-                                <h3><font color="#1a7ea1">TBD</font></h3>
-                                <a></a>
-                                <p>Our team has rich experience in building and delievering Ethereum/NEO smart contracts. Now we are focus on creating <font color="#1a7ea1">DOWN-TO-EARTH</font>&nbsp;blockchain applications on the direction of IoT and Machine Learning.</p>
+                                <p>PROV can make many interesting experience in consumer facing scenario. Meanwhile, Norchain also connects with enterprises and governments to realize the concept in inital stage. City of Marham regarding to the blockchain opportunitie is impressed by PROV in contributing smart transportation demonstrated in this figure.<br>
+In the smart transportation scenario, no matter vehicles, repair shop or traffic camera, the PROV services process the data collected from the sensors, do the reflection immediately or transfer data from offchain channels, and then record the incidents onchain.<br>
+    The researchers can retrieve the irreversible onchain record to optimize our traffic system. credit related services can ask users to prove their vechicle's onchain account to assess their behavior, in a very transparent manner and low maintainance cost.
+    norchain is also proactively looking for cooperation from autonomous car and user-based insurance companies.</p>
                             </div>
                         </div>
                     </div>
@@ -143,7 +154,7 @@
         <div id="video-section" class="text-center">
             <div class="container">
                 <div class="section-title wow fadeInDown" style="visibility: hidden; animation-name: none;">
-                    <h2>VIDEO</h2>
+                    <h2>Video & Showcase</h2>
                     <hr>
                     <div class="clearfix"></div>
                     <div class="space"></div>
@@ -155,16 +166,30 @@
                     <!-- <div class="embed-responsive embed-responsive-16by9">
                         <iframe id='video_modal4' class="embed-responsive-item" src=""></iframe>
                     </div> -->
-                    <div class="col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4  video isotope-item" align="center">
+                    <div class="col-sm-12 col-md-3 col-md-offset-1 col-lg-4 col-lg-offset-1  video isotope-item" align="center">
                         <div class="portfolio-item wow fadeInDown" data-wow-delay="800ms" style="visibility: hidden; animation-delay: 800ms; animation-name: none;">
                             <div class="hover-bg">
                                 <a href="index.html#portfolioModal4" class="portfolio-link" data-toggle="modal">
                                     <div class="hover-text">
-                                        <h4>NEO of Things</h4>
-                                        <p>Video</p>
+                                        <h4>Coming on Mar. 22</h4>
+                                        <p>Introduction of NEOT</p>
                                         <div class="clearfix"></div>
                                     </div>
                                     <img src="./img/neo-video.jpg" class="img-responsive" alt="Project Title">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3 col-md-offset-6 col-lg-4 col-lg-offset-6  video isotope-item" align="center">
+                        <div class="portfolio-item wow fadeInDown" data-wow-delay="800ms" style="visibility: hidden; animation-delay: 800ms; animation-name: none;">
+                            <div class="hover-bg">
+                                <a href="./neot/index.html" target="blank">
+                                    <div class="hover-text">
+                                        <h4>Show case </h4>
+                                        <p>User Based Insurance</p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <img src="./neot/img/showcase.jpg" class="img-responsive" alt="Project Title">
                                 </a>
                             </div>
                         </div>
@@ -176,20 +201,48 @@
         <div id="document-section" class="text-center">
             <div class="container">
                 <div class="section-title wow fadeInDown" style="visibility: hidden; animation-name: none;">
-                    <h2>Meet our Team</h2>
+                    <h2>DOCUMENTs</h2>
                     <hr>
                     <div class="clearfix"></div>
                     <div class="space"></div>
+                    <p align="left"><a href="https://github.com/NEOCompToronto/NEOCompetition/blob/master/NEOT%20-%20White%20Paper.md"><font color="#1a7ea1" target="_blank"><u> NEOT White Paper:</u></font> </a><br> In this white paper, we first discuss the common challenges of distributed ledger based IoT projects, then introduce a new blockchain based service model PROV to help overcome some practical problems. The project NEOT (NEO of Things) is proposed to leverage PROV service model and NEO blockchain. In the last, we discuss some NEOT user cases in the smart traffic scenario. </p>
+                    <p align="left"><a href="https://github.com/NEOCompToronto/NEOCompetition/blob/master/PROV%20Service%20and%20Share%20Economy.ipynb" target="_blank"><font color="#1a7ea1"><u> PROV Yellow Paper(Beta)</u>:</font> </a><br> In this yellow paper, we make a indepth discussion in technology perspective about an optimized blockchain share economy model: PROV. The role PROV developer as an independent party is introduced to decouple service providers from implementing services. PROV developer provides customers more flexibility in deciding how providers can serve them with their resources, and get profit from every instance of the service they created. By utilize blockchain infrastructure, PROV developers can retrieve useful information from the irreversible ledger to optimize their service.  </p>
+                    <p align="left"><a href="./neot/img/NEOT.pdf" target="_blank"><font color="#1a7ea1"><u> PPT </u>:</font> </a><br> Is also available with more details about the team members, project proposal and ongoing cooperations.</p>
                 </div>
             </div>
         </div>
         <div id="showcase-section" class="text-center">
             <div class="container">
                 <div class="section-title wow fadeInDown" style="visibility: hidden; animation-name: none;">
+                    <h2>Video &amp;Show Case</h2>
+                    <hr>
+                    <div class="clearfix"></div>
+                    <div class="space"></div>
+                    <div class="col-sm-12 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4  video isotope-item" align="center">
+                        <div class="portfolio-item wow fadeInDown" data-wow-delay="800ms" style="visibility: hidden; animation-delay: 800ms; animation-name: none;">
+                            <div class="hover-bg">
+                                <a href="./neot/index.html" target="blank">
+                                    <div class="hover-text">
+                                        <h4>Show case </h4>
+                                        <p>User Based Insurance</p>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <img src="./neot/img/showcase.jpg" class="img-responsive" alt="Project Title">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="team-section" class="text-center">
+            <div class="container">
+                <div class="section-title wow fadeInDown" style="visibility: hidden; animation-name: none;">
                     <h2>Meet our Team</h2>
                     <hr>
                     <div class="clearfix"></div>
                     <div class="space"></div>
+                    <p align="left"> The project of NEOT is designed, implemented and maintained by <a href="./index.html" target="blank"><font color="#1a7ea1"><u>norchain.io</u></font> </a> - A young and passionate team located at Toronto, Canada. Team members have outstanding IT related education background from top tier universities such as Stanford U., Tsinghua U., SJTU, UWaterloo, HUST, etc. Also have work experience in famous companies such as Bell, Huawei, Tencent, CGI, Nokia, Lucent, Blackberry, etc. More information please visit our <a href="./index.html" target="blank"><font color="#1a7ea1"><u>home page</u></font></a>.</p>
                 </div>
             </div>
         </div>
@@ -267,6 +320,73 @@
         <div id="footer" class="text-center">
             <div class="container">
                 <p>Copyright © norchain.io</p>
+            </div>
+        </div>
+        <div class="portfolio-modal modal" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"> </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>NEOT Smart Transportation</h2>
+                                <p class="item-intro">NEOT User Case: Smart Transportation</p>
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe id='video_modal4' class="embed-responsive-item" src=""></iframe>
+                                </div> -->
+                                <img class="img-responsive img-centered" src="./neot/img/SmartTransportation.jpg" alt="">
+                                <p align="left">The project NEOT (NEO of Things): Introduce a new blockchain based service model PROV, powered by NEO as the best blockchain platform to help overcome IoT practical problems.</p>
+                                <ul class="list-inline">
+</ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio-modal modal" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl"> </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Coming Soon</h2>
+                                <p class="item-intro">Show case of UBI</p>
+                                <!-- <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe id='video_modal4' class="embed-responsive-item" src=""></iframe>
+                                </div> -->
+                                <div class="webgl-content">
+                                    <div id="gameContainer" style="width: 960px; height: 600px"></div>
+                                    <div class="footer">
+                                        <div class="webgl-logo"></div>
+                                        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+                                        <div class="title">New Unity Project</div>
+                                    </div>
+                                </div>
+                                <p align="left">The project NEOT (NEO of Things): Introduce a new blockchain based service model PROV, powered by NEO as the best blockchain platform to help overcome IoT practical problems.</p>
+                                <ul class="list-inline">
+</ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fa fa-times"></i> Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="portfolio-modal modal" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">

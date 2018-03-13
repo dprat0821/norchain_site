@@ -393,7 +393,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding: 100px 0;
 }
 
+/* Showcase Section */
 
+#showcase-section
+{
+    padding: 100px 0;
+}
 
 /* Gallery Section
 ==============================*/
