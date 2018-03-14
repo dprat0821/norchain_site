@@ -212,7 +212,7 @@ header p
 
 /* NEOT Header Style */
 
-header_neot
+header-neot
 {
     background: url(../neot/img/header-bg.jpg) no-repeat bottom center;
     background-size: cover;
@@ -959,25 +959,51 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 center{
     text-align: center;
 }
+
 .videowrapper {
-        float: none;
-        clear: both;
-        width: 700px;
-        position: relative;
-        padding-bottom: 56.25%;
-        padding-top: 25px;
-        height: 0;
-    margin: 0 auto;
-    }
-    .videowrapper iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    max-width: 700px;
-    max-height: 400px;
-    }
+    float: none;
+    clear: both;
+    width: 700px;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+margin: 0 auto;
+}
+
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+max-width: 700px;
+max-height: 400px;
+}
+
+/*canvas{
+  display:block;
+  vertical-align:bottom;
+}*/
+
+#particles-js canvas{
+    display:block;
+    /*vertical-align:bottom;*/
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+/*    background-size: cover;
+    background-position: 50% 50%;*/
+}
+
+.pointless {
+    pointer-events: none;
+}
+.pointable {
+    pointer-events: auto;
+}
+
 
 null
 {
