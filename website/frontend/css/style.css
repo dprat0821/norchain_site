@@ -210,6 +210,17 @@ header p
     letter-spacing: 2px;
 }
 
+/* NEOT Header Style */
+
+header_neot
+{
+    background: url(../neot/img/header-bg.jpg) no-repeat bottom center;
+    background-size: cover;
+    color: #cfcfcf;
+    position: relative;
+    height: 100%;
+}
+
 .intro-text
 {
     position: relative;
