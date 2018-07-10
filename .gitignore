@@ -7,3 +7,4 @@ website/TeamNEO/
 upload_2_amazon.sh
 
 website/frontend/_pgbackup/
+website/_pgbackup
