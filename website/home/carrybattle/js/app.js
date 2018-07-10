@@ -32,7 +32,7 @@ particlesJS('particles-js',
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 4
+        "nb_sides": 2
       },
       "image": {
         "src": "img/github.svg",
