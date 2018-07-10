@@ -1,16 +1,20 @@
-#Zip Server                                                                                                
+#Zip Server
 echo "zipWebSite"
-#for the firest time                                                                                       
-#zip -r ./Server_mx_game.zip ./* --exclude=*runtime* -x *log_* .* uploadWebGame.sh                         
-zip -r ./norchain.zip ./website/* --exclude=*runtime* --exclude=*frameworks* -x *log_* .* uploadWebGame.sh
+#for the firest time
+#zip -r ./Server_mx_game.zip ./* --exclude=*runtime* -x *log_* .* uploadWebGame.sh
+#zip -r ./norchain.zip ./website/* --exclude=*runtime* --exclude=*frameworks* -x *log_* .* uploadWebGame.sh
 
-#only publish folder                                                                                       
-#cd ./publish/html5/                                                                                       
+#only publish folder
+#cd ./publish/html5/
+
+cd ./website/home/
 
 
 zip -r ./norchain.zip ./* -X *.DS_Store
-#mv ./Server_mx_game.zip ../../                                                                            
-#cd ../../                                                                                                 
+mv ./norchain.zip  ../../
+cd ../../
+#mv ./Server_mx_game.zip ../../
+#cd ../../
 
 ls -l | grep norchain.zip
 
@@ -20,6 +24,6 @@ ssh -i ~/.ssh/zbeans.pem ec2-user@amazon_server "cd Documents && ls -la && sh ./
 
 
 
-#remove zip file                                                                                           
+#remove zip file
 echo "remove zip file"
-#rm ./norchain.zip      
+#rm ./norchain.zip
